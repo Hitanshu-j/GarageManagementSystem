@@ -1,14 +1,14 @@
 public class Service {
-    private String name;
+    private String serviceName;
     private double price;
 
     public Service(String name, double price) {
-        this.name = name;
+        this.serviceName = name;
         this.price = price;
     }
 
     public String getName() {
-        return name;
+        return serviceName;
     }
 
     public double getPrice() {

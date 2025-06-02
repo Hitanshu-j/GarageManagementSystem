@@ -29,7 +29,7 @@ public class GarageBillingApp {
                     garageService.addCustomer(name,phone,carNum,model);
                     break;
                 case 2:
-                    System.out.println("Enter car number:");
+                    System.out.println(greet());
                     String carNo=sc.next();
                     garageService.createInvoice(carNo);
                     break;
@@ -41,6 +41,8 @@ public class GarageBillingApp {
                     System.out.println("Invalid choice. Try again.");
             }
         }
-
+    }
+    public static String greet() {
+        return "Good day";
     }
 }

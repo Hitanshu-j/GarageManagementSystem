@@ -6,7 +6,7 @@ public class GarageBillingApp {
         GarageService garageService=new GarageService();
         Scanner sc=new Scanner(System.in);
 
-        System.out.println("------------------Bharti Car Service Center------------------");
+        System.out.println("------------------Mahaveer Car Service Center------------------");
         while(true)
         {
             System.out.println("1. Add Customer");
@@ -40,7 +40,7 @@ public class GarageBillingApp {
                 default:
                     System.out.println("Invalid choice. Try again.");
             }
-
         }
+
     }
 }

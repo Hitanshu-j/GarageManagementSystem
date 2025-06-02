@@ -1,10 +1,10 @@
 public class Service {
     private String serviceName;
-    private double servicePrice;
+    private double price;
 
     public Service(String name, double price) {
         this.serviceName = name;
-        this.servicePrice = price;
+        this.price = price;
     }
 
     public String getName() {
@@ -12,6 +12,6 @@ public class Service {
     }
 
     public double getPrice() {
-        return servicePrice;
+        return price;
     }
 }

@@ -1,17 +1,17 @@
 public class Service {
-    private String name;
-    private double price;
+    private String serviceName;
+    private double servicePrice;
 
     public Service(String name, double price) {
-        this.name = name;
-        this.price = price;
+        this.serviceName = name;
+        this.servicePrice = price;
     }
 
     public String getName() {
-        return name;
+        return serviceName;
     }
 
     public double getPrice() {
-        return price;
+        return servicePrice;
     }
 }
